@@ -31,4 +31,13 @@ public class Cat {
     public void setCute(boolean cute) {
         this.cute = cute;
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", cute=" + cute +
+                '}';
+    }
 }
